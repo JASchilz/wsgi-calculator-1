@@ -89,7 +89,7 @@ def resolve_path(path):
         'multiply' : multiply
     }
     path = path.strip('/').split('/')
-    func = path[0]
+    func_name = path[0]
     args = path[1:]
 
     try:
